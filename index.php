@@ -22,9 +22,9 @@
     }
 
     // setters
-    public function setEmail($username){
-      if(strpos($username, '@') > -1){
-        $this->email = $username;
+    public function setEmail($email){
+      if(strpos($email, '@') > -1){
+        $this->email = $email;
       };
     }
 
